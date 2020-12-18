@@ -13,6 +13,13 @@ ReviewsApp is an iOS project written in Swift that displays reviews of excursion
 
 
 
+## Getting Started
+
+- Read this README.md doc
+- Download the project and open it in Xcode. Click the run button.
+
+
+
 ## Source Organisation
 
 The project files are organised as follows:
@@ -59,12 +66,6 @@ APIServices manage the interaction with remote server or making API calls. An UI
 
 No external dependencies required to run the project.
 
-
-
-## Getting Started
-
-- Read this README.md doc
-- Download the project and open it in Xcode. Click the run button.
 
 
 ## Unit Tests
