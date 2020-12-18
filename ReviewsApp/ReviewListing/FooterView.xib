@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bml-0L-P4P">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wn6-7I-iZT">
+                    <rect key="frame" x="100" y="35" width="120" height="20"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="R28-HT-cfx">
+                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="Txd-VI-SKu"/>
+                                <constraint firstAttribute="width" constant="20" id="cYc-qs-Wbr"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Txd-VI-SKu"/>
+                                </mask>
+                            </variation>
+                        </activityIndicatorView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nat-Rb-LLg">
+                            <rect key="frame" x="30" y="0.0" width="80" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="Lth-l7-lcF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="7cl-HF-JfT"/>
+                        <constraint firstItem="Nat-Rb-LLg" firstAttribute="top" secondItem="wn6-7I-iZT" secondAttribute="top" id="F3s-vl-qVJ"/>
+                        <constraint firstItem="R28-HT-cfx" firstAttribute="leading" secondItem="wn6-7I-iZT" secondAttribute="leading" id="QiS-zg-dnp"/>
+                        <constraint firstAttribute="centerY" secondItem="R28-HT-cfx" secondAttribute="centerY" id="Tc4-oK-tG9"/>
+                        <constraint firstAttribute="width" constant="120" id="UOz-46-sOA"/>
+                        <constraint firstAttribute="bottom" secondItem="Nat-Rb-LLg" secondAttribute="bottom" id="YPR-Iz-fUR"/>
+                        <constraint firstAttribute="centerX" secondItem="R28-HT-cfx" secondAttribute="centerX" id="g4W-kn-zhl"/>
+                        <constraint firstItem="Nat-Rb-LLg" firstAttribute="leading" secondItem="R28-HT-cfx" secondAttribute="trailing" constant="10" id="ldO-e3-mSE"/>
+                        <constraint firstItem="R28-HT-cfx" firstAttribute="top" secondItem="wn6-7I-iZT" secondAttribute="top" id="uMh-00-Af3"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Tc4-oK-tG9"/>
+                            <exclude reference="g4W-kn-zhl"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="wn6-7I-iZT" secondAttribute="centerX" id="iiv-nT-yWG"/>
+                <constraint firstAttribute="centerY" secondItem="wn6-7I-iZT" secondAttribute="centerY" id="txI-ke-JWx"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="123" y="113"/>
+        </view>
+    </objects>
+</document>

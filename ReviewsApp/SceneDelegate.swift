@@ -2,21 +2,26 @@
 //  SceneDelegate.swift
 //  ReviewsApp
 //
-//  Created by Vibhor Mehrotra on 11/12/20.
-//
 
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        /*
+            For the purpose of this project, id and name has been set to 23776 and Berlin Tempelhof Airport respectively. To extend the project in future, this method can be called from a listing page with relevant excursion id and nane to display reviews corresponding to that excursion.
+         */
+        
+        if let windowScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowScene)
+            let id = "23776"// Hardcoded just for the purpose of this project
+            let name = "Berlin Tempelhof Airport"// Hardcoded just for the purpose of this project
+            window.rootViewController = UINavigationController(rootViewController: ReviewListingWireframe.reviewListingVC(id: id, name: name))
+            self.window = window
+            window.makeKeyAndVisible()
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

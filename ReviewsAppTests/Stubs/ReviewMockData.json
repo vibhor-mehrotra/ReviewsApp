@@ -1,0 +1,351 @@
+{
+  "reviews": [
+    {
+      "id": 12303854,
+      "author": {
+        "fullName": "Lee",
+        "country": "United Kingdom"
+      },
+      "title": "",
+      "message": "We loved Tempelhof, my 10yr old thought it was fantastic and probably one of his highlights of Berlin. The guide was brilliant and gave lots of information on both the history and the architecture. I would recommend this tour to anyone, however there is a lot of walking and most of it is up and down stairs, so make sure you\u2019re able to manage it before booking.",
+      "enjoyment": "",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-03-07T01:05:16+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "young family"
+    },
+    {
+      "id": 12211739,
+      "author": {
+        "fullName": "Boaz",
+        "country": "Israel",
+        "photo": "https://cdn.getyourguide.com/img/customer/5d4e7feb0d3a0.jpeg/11.jpg"
+      },
+      "title": "",
+      "message": "We got many detailed explanations of the history of the place and it was very good.\n\nThe tour guide was clear and professional.\n\nSome recommendations for improvement:\nThe group was too big\nMany black and white paper print images have been featured and can now be viewed simply on a tablet or in more advanced ways\nWe would also like to tour the rest of this large building\nThe tour focused on a very small part of the building",
+      "enjoyment": "Hear about the history of the place and take pictures",
+      "isAnonymous": false,
+      "rating": 4,
+      "created": "2020-02-29T08:36:10+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "couple"
+    },
+    {
+      "id": 11608861,
+      "author": {
+        "fullName": "Scott",
+        "country": "United States"
+      },
+      "title": "",
+      "message": "It was a great thorough tour. One of the best tours I have ever taken. Very informative and detailed. You get to see a whole lot of the airport and learn lots about its history and future. Our tour guide was very knowledgeable and detailed in his explanations. He walked us through the entire tour with ease and efficiency. It was a rather long tour, but not one minute of it I was bored. It was very interesting. Definitely recommend.",
+      "enjoyment": "Our tour guide!",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-01-11T16:06:06+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "couple"
+    },
+    {
+      "id": 12258064,
+      "author": {
+        "fullName": "Anonymous",
+        "country": "Germany"
+      },
+      "title": "",
+      "message": "Great tour! Tempelhof airport is fascinating from both an architectural and historic point of view.",
+      "enjoyment": "",
+      "isAnonymous": true,
+      "rating": 5,
+      "created": "2020-03-03T09:25:34+01:00",
+      "optionId": 25393,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "couple"
+    },
+    {
+      "id": 12254094,
+      "author": {
+        "fullName": "Anonymous",
+        "country": "Germany"
+      },
+      "title": "",
+      "message": "It was a gift for my husband, but he said he really enjoyed it!",
+      "enjoyment": "",
+      "isAnonymous": true,
+      "rating": 5,
+      "created": "2020-03-02T22:04:43+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "solo"
+    },
+    {
+      "id": 12232129,
+      "author": {
+        "fullName": "Milica",
+        "country": "Germany",
+        "photo": "https://cdn.getyourguide.com/img/customer/5d3ac6902c88f.png/11.jpg"
+      },
+      "title": "",
+      "message": "",
+      "enjoyment": "Very good guide, very interesting history, overall a great tour. We enjoyed it!",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-03-01T15:10:19+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en"
+    },
+    {
+      "id": 12221414,
+      "author": {
+        "fullName": "Abigail",
+        "country": "Ireland",
+        "photo": "https://cdn.getyourguide.com/img/customer/5e14d452f0f38.jpeg/11.jpg"
+      },
+      "title": "",
+      "message": "",
+      "enjoyment": "Wonderful, so fascinating for any who might be interested in either the air part of the war, engineering or architecture. Pictures don\u2019t do the place justice, unbelievable. Great service also, such a lovely tour guide.",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-02-29T20:49:16+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en"
+    },
+    {
+      "id": 12119696,
+      "author": {
+        "fullName": "Anonymous",
+        "country": "Germany"
+      },
+      "title": "",
+      "message": "It was disappointing that nothing was shown of the underground technical facilities at Tempelhof Airport, which are said to have been world leaders in construction. The tour was led by a lady who had probably been a teacher in the new federal states (Thuringia?) And tried very hard not to show any resentment against the American allies.",
+      "enjoyment": "The memory of the time when I used Tempelhof Airport as a child.",
+      "isAnonymous": true,
+      "rating": 3,
+      "created": "2020-02-23T15:20:47+01:00",
+      "optionId": 25393,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "friends"
+    },
+    {
+      "id": 12059861,
+      "author": {
+        "fullName": "Robert",
+        "photo": "https://cdn.getyourguide.com/img/customer/5afd78d9bc524.jpeg/11.jpg"
+      },
+      "title": "",
+      "message": "Great tour and a very knowledgeable guide. The tour was 2 hours but didn\u0027t drag at all. Recommend.",
+      "enjoyment": "",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-02-19T15:50:36+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en"
+    },
+    {
+      "id": 12029220,
+      "author": {
+        "fullName": "Brian",
+        "country": "United States"
+      },
+      "title": "",
+      "message": "What a cool and fascinating tour!",
+      "enjoyment": "",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-02-17T15:52:22+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "friends"
+    },
+    {
+      "id": 12027405,
+      "author": {
+        "fullName": "Anonymous",
+        "country": "Germany"
+      },
+      "title": "",
+      "message": "- To put up a bit more old photos / or films in different rooms as it used to be there. -I find objects or facilities from that time, missing there ...",
+      "enjoyment": "",
+      "isAnonymous": true,
+      "rating": 5,
+      "created": "2020-02-17T13:54:15+01:00",
+      "optionId": 25393,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "couple"
+    },
+    {
+      "id": 12014265,
+      "author": {
+        "fullName": "Siddharth",
+        "country": "United Arab Emirates"
+      },
+      "title": "",
+      "message": "Was well organized and was worth it !",
+      "enjoyment": "The insider facts about the place",
+      "isAnonymous": false,
+      "rating": 4,
+      "created": "2020-02-16T18:05:16+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "solo"
+    },
+    {
+      "id": 12010705,
+      "author": {
+        "fullName": "Anonymous",
+        "country": "United Kingdom"
+      },
+      "title": "",
+      "message": "Great tour of an amazing place",
+      "enjoyment": "",
+      "isAnonymous": true,
+      "rating": 5,
+      "created": "2020-02-16T14:51:32+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "couple"
+    },
+    {
+      "id": 11936331,
+      "author": {
+        "fullName": "Caroline",
+        "country": "Germany"
+      },
+      "title": "",
+      "message": "Very interesting and highly recommended. Thanks for the great guidance.",
+      "enjoyment": "",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-02-10T10:30:42+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "friends"
+    },
+    {
+      "id": 11913876,
+      "author": {
+        "fullName": "Andy",
+        "country": "United States",
+        "photo": "https://cdn.getyourguide.com/img/customer/5d99de54d6a3e.png/11.jpg"
+      },
+      "title": "",
+      "message": "Isabelle was a fantastic tour guide and was a wealth of interesting knowledge, and spoke nearly flawless English. The tour started promptly at 1:30 and went about 15 minutes past the 2-hour mark. Learned so many interesting factoids today!",
+      "enjoyment": "",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-02-08T15:20:02+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en"
+    },
+    {
+      "id": 11704585,
+      "author": {
+        "fullName": "Robert",
+        "country": "Australia"
+      },
+      "title": "",
+      "message": "Great tour, such an amazing building and great tour guide!",
+      "enjoyment": "The scale of the building",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-01-19T18:19:54+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "solo"
+    },
+    {
+      "id": 11697655,
+      "author": {
+        "fullName": "Paula",
+        "country": "Lithuania",
+        "photo": "https://cdn.getyourguide.com/img/customer/5dc56331aeab7.png/11.jpg"
+      },
+      "title": "",
+      "message": "It was very very interesting. Unfortunately some places was closet because fashion week. But everything was great.",
+      "enjoyment": "",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-01-19T08:04:38+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "young family"
+    },
+    {
+      "id": 11637846,
+      "author": {
+        "fullName": "Robert",
+        "country": "United Kingdom"
+      },
+      "title": "",
+      "message": "Very informative with the guide having a good dry sense of humour.",
+      "enjoyment": "Going behind the scenes of such an iconic building",
+      "isAnonymous": false,
+      "rating": 5,
+      "created": "2020-01-13T14:39:56+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "couple"
+    },
+    {
+      "id": 11607886,
+      "author": {
+        "fullName": "Anonymous",
+        "country": "United Kingdom"
+      },
+      "title": "",
+      "message": "Unfortunately our guide seemed uninterested, distracted and unprepared. The tour felt ramshackle and on three occasions our guide recommended that we \u2018google it\u2019 - I guess because he didn\u2019t have anything to say?",
+      "enjoyment": "The building is cool, but I still don\u2019t know much about it",
+      "isAnonymous": true,
+      "rating": 2,
+      "created": "2020-01-11T14:56:03+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "couple"
+    },
+    {
+      "id": 11533246,
+      "author": {
+        "fullName": "Anonymous",
+        "country": "Canada"
+      },
+      "title": "",
+      "message": "Thoroughly enjoyable! Extensive detail. Would highly recommend it. Thank you, Ben!",
+      "enjoyment": "",
+      "isAnonymous": true,
+      "rating": 5,
+      "created": "2020-01-07T10:57:38+01:00",
+      "optionId": 27395,
+      "activityId": 23776,
+      "language": "en",
+      "travelerType": "couple"
+    }
+  ],
+  "totalCount": 1395,
+  "averageRating": 4.7283,
+  "pagination": {
+    "limit": 20,
+    "offset": 1
+  }
+}

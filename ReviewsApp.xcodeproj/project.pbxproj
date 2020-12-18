@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514F03512587A62C000A4C05 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03502587A62C000A4C05 /* MockData.swift */; };
+		514F035A2587A684000A4C05 /* ReviewMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 514F03592587A684000A4C05 /* ReviewMockData.json */; };
+		514F03622587B985000A4C05 /* ReviewDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03612587B985000A4C05 /* ReviewDataTests.swift */; };
+		514F036A2587DFD6000A4C05 /* SortDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03692587DFD6000A4C05 /* SortDataTests.swift */; };
+		514F036F2587E266000A4C05 /* APIServicesMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F036E2587E266000A4C05 /* APIServicesMock.swift */; };
+		514F03772587EA46000A4C05 /* ReviewsDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03762587EA46000A4C05 /* ReviewsDataManagerTests.swift */; };
+		514F037C2587F63F000A4C05 /* ReviewListCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F037B2587F63F000A4C05 /* ReviewListCellViewModelTests.swift */; };
+		514F03822587FA70000A4C05 /* APIServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03812587FA70000A4C05 /* APIServicesTests.swift */; };
+		514F038A2587FBDA000A4C05 /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03892587FBDA000A4C05 /* URLProtocolStub.swift */; };
+		514F03902587FCEC000A4C05 /* ReviewListingVMMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F038F2587FCEC000A4C05 /* ReviewListingVMMock.swift */; };
+		514F03982587FE3B000A4C05 /* ReviewListingVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03972587FE3B000A4C05 /* ReviewListingVCTests.swift */; };
+		514F03A32588CE5A000A4C05 /* ReviewListingWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03A22588CE5A000A4C05 /* ReviewListingWireframe.swift */; };
+		514F03A92588D086000A4C05 /* ReviewDataManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03A82588D086000A4C05 /* ReviewDataManagerMock.swift */; };
+		514F03B12588D10D000A4C05 /* ReviewListVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03B02588D10D000A4C05 /* ReviewListVMTests.swift */; };
+		514F03C5258912E5000A4C05 /* CoreDataStackMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03C4258912E5000A4C05 /* CoreDataStackMock.swift */; };
+		519AE7A82583CF2E0027E7D9 /* ReviewListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519AE7A72583CF2E0027E7D9 /* ReviewListCellViewModel.swift */; };
+		519AE7AD2583FAF90027E7D9 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519AE7AC2583FAF90027E7D9 /* FooterView.xib */; };
+		519AE7B32584B5750027E7D9 /* ReviewsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519AE7B22584B5740027E7D9 /* ReviewsDataManager.swift */; };
+		519AE7F525863D7C0027E7D9 /* SortData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519AE7F425863D7C0027E7D9 /* SortData.swift */; };
 		51B88C4225836705004F9D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C4125836705004F9D1B /* AppDelegate.swift */; };
 		51B88C4425836705004F9D1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C4325836705004F9D1B /* SceneDelegate.swift */; };
-		51B88C4625836705004F9D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C4525836705004F9D1B /* ViewController.swift */; };
 		51B88C4925836705004F9D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B88C4725836705004F9D1B /* Main.storyboard */; };
 		51B88C4C25836705004F9D1B /* ReviewsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C4A25836705004F9D1B /* ReviewsApp.xcdatamodeld */; };
 		51B88C4E2583670D004F9D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B88C4D2583670D004F9D1B /* Assets.xcassets */; };
 		51B88C512583670D004F9D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B88C4F2583670D004F9D1B /* LaunchScreen.storyboard */; };
-		51B88C5C2583670E004F9D1B /* ReviewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C5B2583670E004F9D1B /* ReviewsAppTests.swift */; };
 		51B88C672583670E004F9D1B /* ReviewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C662583670E004F9D1B /* ReviewsAppUITests.swift */; };
+		51B88C7C258367B1004F9D1B /* ReviewListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C7B258367B1004F9D1B /* ReviewListingVC.swift */; };
+		51B88C81258367D8004F9D1B /* ReviewListingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C80258367D8004F9D1B /* ReviewListingVM.swift */; };
+		51B88C89258370EA004F9D1B /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C88258370E9004F9D1B /* APIServices.swift */; };
+		51B88C9125837249004F9D1B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C9025837249004F9D1B /* Constants.swift */; };
+		51B88C9625839C6A004F9D1B /* ReviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C9525839C69004F9D1B /* ReviewData.swift */; };
+		51B88C9B2583A476004F9D1B /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C9A2583A475004F9D1B /* BaseVC.swift */; };
+		51B88CA42583AD42004F9D1B /* ReviewListingTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88CA32583AD42004F9D1B /* ReviewListingTVCell.swift */; };
+		51B88CAC2583B2A3004F9D1B /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88CAB2583B2A3004F9D1B /* HelperExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +61,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		514F03502587A62C000A4C05 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		514F03592587A684000A4C05 /* ReviewMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ReviewMockData.json; sourceTree = "<group>"; };
+		514F03612587B985000A4C05 /* ReviewDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDataTests.swift; sourceTree = "<group>"; };
+		514F03692587DFD6000A4C05 /* SortDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortDataTests.swift; sourceTree = "<group>"; };
+		514F036E2587E266000A4C05 /* APIServicesMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServicesMock.swift; sourceTree = "<group>"; };
+		514F03762587EA46000A4C05 /* ReviewsDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsDataManagerTests.swift; sourceTree = "<group>"; };
+		514F037B2587F63F000A4C05 /* ReviewListCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListCellViewModelTests.swift; sourceTree = "<group>"; };
+		514F03812587FA70000A4C05 /* APIServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServicesTests.swift; sourceTree = "<group>"; };
+		514F03892587FBDA000A4C05 /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
+		514F038F2587FCEC000A4C05 /* ReviewListingVMMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListingVMMock.swift; sourceTree = "<group>"; };
+		514F03972587FE3B000A4C05 /* ReviewListingVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListingVCTests.swift; sourceTree = "<group>"; };
+		514F03A22588CE5A000A4C05 /* ReviewListingWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListingWireframe.swift; sourceTree = "<group>"; };
+		514F03A82588D086000A4C05 /* ReviewDataManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDataManagerMock.swift; sourceTree = "<group>"; };
+		514F03B02588D10D000A4C05 /* ReviewListVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListVMTests.swift; sourceTree = "<group>"; };
+		514F03C4258912E5000A4C05 /* CoreDataStackMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackMock.swift; sourceTree = "<group>"; };
+		519AE7A72583CF2E0027E7D9 /* ReviewListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListCellViewModel.swift; sourceTree = "<group>"; };
+		519AE7AC2583FAF90027E7D9 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		519AE7B22584B5740027E7D9 /* ReviewsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsDataManager.swift; sourceTree = "<group>"; };
+		519AE7F425863D7C0027E7D9 /* SortData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortData.swift; sourceTree = "<group>"; };
 		51B88C3E25836705004F9D1B /* ReviewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReviewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B88C4125836705004F9D1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51B88C4325836705004F9D1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		51B88C4525836705004F9D1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51B88C4825836705004F9D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51B88C4B25836705004F9D1B /* ReviewsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReviewsApp.xcdatamodel; sourceTree = "<group>"; };
 		51B88C4D2583670D004F9D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51B88C502583670D004F9D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51B88C522583670D004F9D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51B88C572583670E004F9D1B /* ReviewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		51B88C5B2583670E004F9D1B /* ReviewsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsAppTests.swift; sourceTree = "<group>"; };
 		51B88C5D2583670E004F9D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51B88C622583670E004F9D1B /* ReviewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B88C662583670E004F9D1B /* ReviewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsAppUITests.swift; sourceTree = "<group>"; };
 		51B88C682583670E004F9D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51B88C7B258367B1004F9D1B /* ReviewListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListingVC.swift; sourceTree = "<group>"; };
+		51B88C80258367D8004F9D1B /* ReviewListingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListingVM.swift; sourceTree = "<group>"; };
+		51B88C88258370E9004F9D1B /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		51B88C9025837249004F9D1B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		51B88C9525839C69004F9D1B /* ReviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewData.swift; sourceTree = "<group>"; };
+		51B88C9A2583A475004F9D1B /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		51B88CA32583AD42004F9D1B /* ReviewListingTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListingTVCell.swift; sourceTree = "<group>"; };
+		51B88CAB2583B2A3004F9D1B /* HelperExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +128,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		514F034E2587A516000A4C05 /* ReviewListing */ = {
+			isa = PBXGroup;
+			children = (
+				514F03A72588D04E000A4C05 /* VM Tests */,
+				514F034F2587A532000A4C05 /* Model */,
+				514F038E2587FCD5000A4C05 /* VC tests */,
+				514F03762587EA46000A4C05 /* ReviewsDataManagerTests.swift */,
+			);
+			path = ReviewListing;
+			sourceTree = "<group>";
+		};
+		514F034F2587A532000A4C05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				514F03612587B985000A4C05 /* ReviewDataTests.swift */,
+				514F03692587DFD6000A4C05 /* SortDataTests.swift */,
+				514F037B2587F63F000A4C05 /* ReviewListCellViewModelTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		514F03582587A650000A4C05 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				514F03592587A684000A4C05 /* ReviewMockData.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		514F03802587F9F0000A4C05 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				514F03812587FA70000A4C05 /* APIServicesTests.swift */,
+				514F03892587FBDA000A4C05 /* URLProtocolStub.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		514F038E2587FCD5000A4C05 /* VC tests */ = {
+			isa = PBXGroup;
+			children = (
+				514F038F2587FCEC000A4C05 /* ReviewListingVMMock.swift */,
+				514F03972587FE3B000A4C05 /* ReviewListingVCTests.swift */,
+			);
+			path = "VC tests";
+			sourceTree = "<group>";
+		};
+		514F03A72588D04E000A4C05 /* VM Tests */ = {
+			isa = PBXGroup;
+			children = (
+				514F03A82588D086000A4C05 /* ReviewDataManagerMock.swift */,
+				514F03B02588D10D000A4C05 /* ReviewListVMTests.swift */,
+			);
+			path = "VM Tests";
+			sourceTree = "<group>";
+		};
+		519AE7B12584B5530027E7D9 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				519AE7B22584B5740027E7D9 /* ReviewsDataManager.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		519AE7F9258666200027E7D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51B88C9525839C69004F9D1B /* ReviewData.swift */,
+				519AE7F425863D7C0027E7D9 /* SortData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		51B88C3525836704004F9D1B = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +224,16 @@
 		51B88C4025836705004F9D1B /* ReviewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				51B88C7A25836781004F9D1B /* ReviewListing */,
+				51B88C87258370D1004F9D1B /* Utility */,
 				51B88C4125836705004F9D1B /* AppDelegate.swift */,
 				51B88C4325836705004F9D1B /* SceneDelegate.swift */,
-				51B88C4525836705004F9D1B /* ViewController.swift */,
 				51B88C4725836705004F9D1B /* Main.storyboard */,
 				51B88C4D2583670D004F9D1B /* Assets.xcassets */,
 				51B88C4F2583670D004F9D1B /* LaunchScreen.storyboard */,
 				51B88C522583670D004F9D1B /* Info.plist */,
 				51B88C4A25836705004F9D1B /* ReviewsApp.xcdatamodeld */,
+				51B88C9A2583A475004F9D1B /* BaseVC.swift */,
 			);
 			path = ReviewsApp;
 			sourceTree = "<group>";
@@ -116,8 +241,13 @@
 		51B88C5A2583670E004F9D1B /* ReviewsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				51B88C5B2583670E004F9D1B /* ReviewsAppTests.swift */,
+				514F03802587F9F0000A4C05 /* Utility */,
+				514F03582587A650000A4C05 /* Stubs */,
+				514F034E2587A516000A4C05 /* ReviewListing */,
 				51B88C5D2583670E004F9D1B /* Info.plist */,
+				514F03502587A62C000A4C05 /* MockData.swift */,
+				514F03C4258912E5000A4C05 /* CoreDataStackMock.swift */,
+				514F036E2587E266000A4C05 /* APIServicesMock.swift */,
 			);
 			path = ReviewsAppTests;
 			sourceTree = "<group>";
@@ -129,6 +259,39 @@
 				51B88C682583670E004F9D1B /* Info.plist */,
 			);
 			path = ReviewsAppUITests;
+			sourceTree = "<group>";
+		};
+		51B88C7A25836781004F9D1B /* ReviewListing */ = {
+			isa = PBXGroup;
+			children = (
+				519AE7F9258666200027E7D9 /* Model */,
+				519AE7B12584B5530027E7D9 /* Data Manager */,
+				51B88CA22583ACFE004F9D1B /* ReviewListingTVCell */,
+				51B88C7B258367B1004F9D1B /* ReviewListingVC.swift */,
+				51B88C80258367D8004F9D1B /* ReviewListingVM.swift */,
+				519AE7AC2583FAF90027E7D9 /* FooterView.xib */,
+				514F03A22588CE5A000A4C05 /* ReviewListingWireframe.swift */,
+			);
+			path = ReviewListing;
+			sourceTree = "<group>";
+		};
+		51B88C87258370D1004F9D1B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				51B88CAB2583B2A3004F9D1B /* HelperExtensions.swift */,
+				51B88C88258370E9004F9D1B /* APIServices.swift */,
+				51B88C9025837249004F9D1B /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		51B88CA22583ACFE004F9D1B /* ReviewListingTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				51B88CA32583AD42004F9D1B /* ReviewListingTVCell.swift */,
+				519AE7A72583CF2E0027E7D9 /* ReviewListCellViewModel.swift */,
+			);
+			path = ReviewListingTVCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B88C512583670D004F9D1B /* LaunchScreen.storyboard in Resources */,
+				519AE7AD2583FAF90027E7D9 /* FooterView.xib in Resources */,
 				51B88C4E2583670D004F9D1B /* Assets.xcassets in Resources */,
 				51B88C4925836705004F9D1B /* Main.storyboard in Resources */,
 			);
@@ -244,6 +408,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514F035A2587A684000A4C05 /* ReviewMockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +426,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B88C4625836705004F9D1B /* ViewController.swift in Sources */,
+				51B88CA42583AD42004F9D1B /* ReviewListingTVCell.swift in Sources */,
+				51B88CAC2583B2A3004F9D1B /* HelperExtensions.swift in Sources */,
 				51B88C4C25836705004F9D1B /* ReviewsApp.xcdatamodeld in Sources */,
+				519AE7F525863D7C0027E7D9 /* SortData.swift in Sources */,
+				51B88C7C258367B1004F9D1B /* ReviewListingVC.swift in Sources */,
+				51B88C89258370EA004F9D1B /* APIServices.swift in Sources */,
+				514F03A32588CE5A000A4C05 /* ReviewListingWireframe.swift in Sources */,
+				519AE7B32584B5750027E7D9 /* ReviewsDataManager.swift in Sources */,
+				51B88C81258367D8004F9D1B /* ReviewListingVM.swift in Sources */,
+				519AE7A82583CF2E0027E7D9 /* ReviewListCellViewModel.swift in Sources */,
+				51B88C9B2583A476004F9D1B /* BaseVC.swift in Sources */,
+				51B88C9125837249004F9D1B /* Constants.swift in Sources */,
 				51B88C4225836705004F9D1B /* AppDelegate.swift in Sources */,
 				51B88C4425836705004F9D1B /* SceneDelegate.swift in Sources */,
+				51B88C9625839C6A004F9D1B /* ReviewData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +448,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B88C5C2583670E004F9D1B /* ReviewsAppTests.swift in Sources */,
+				514F03772587EA46000A4C05 /* ReviewsDataManagerTests.swift in Sources */,
+				514F03822587FA70000A4C05 /* APIServicesTests.swift in Sources */,
+				514F03512587A62C000A4C05 /* MockData.swift in Sources */,
+				514F038A2587FBDA000A4C05 /* URLProtocolStub.swift in Sources */,
+				514F037C2587F63F000A4C05 /* ReviewListCellViewModelTests.swift in Sources */,
+				514F03622587B985000A4C05 /* ReviewDataTests.swift in Sources */,
+				514F03B12588D10D000A4C05 /* ReviewListVMTests.swift in Sources */,
+				514F03C5258912E5000A4C05 /* CoreDataStackMock.swift in Sources */,
+				514F036F2587E266000A4C05 /* APIServicesMock.swift in Sources */,
+				514F036A2587DFD6000A4C05 /* SortDataTests.swift in Sources */,
+				514F03A92588D086000A4C05 /* ReviewDataManagerMock.swift in Sources */,
+				514F03902587FCEC000A4C05 /* ReviewListingVMMock.swift in Sources */,
+				514F03982587FE3B000A4C05 /* ReviewListingVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +613,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,6 +630,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ReviewsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +649,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ReviewsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
