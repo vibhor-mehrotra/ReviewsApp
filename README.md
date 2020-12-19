@@ -6,10 +6,17 @@ ReviewsApp is an iOS project written in Swift that displays reviews of excursion
 
 ## Features
 
--Display reviews of excursions.
--Option to sort reviews on the basis of rating and date.
--Ratings are marked with respective colors(green/yellow/red) depending on the sentiment.
--It provides offline support for displaying reviews so that your last fetched reviews are not lost in absence of network!!
+- Display reviews of excursions.
+- Option to sort reviews on the basis of rating and date.
+- Ratings are marked with respective colors(green/yellow/red) depending on the sentiment.
+- It provides offline support for displaying reviews so that your last fetched reviews are not lost in absence of network!!
+
+
+
+## Getting Started
+
+- Read this README.md doc
+- Download the project and open it in Xcode. Click the run button.
 
 
 
@@ -49,9 +56,9 @@ APIServices manage the interaction with remote server or making API calls. An UI
 
 ## Requirements
 
--Xcode 12.0 or later
--macOS 10.15.5 or later
--iOS 13.0 or later
+- Xcode 12.0 or later
+- macOS 10.15.5 or later
+- iOS 13.0 or later
 
 
 
@@ -59,12 +66,6 @@ APIServices manage the interaction with remote server or making API calls. An UI
 
 No external dependencies required to run the project.
 
-
-
-## Getting Started
-
--Read this README.md doc
--Download the project and open it in Xcode. Click the run button.
 
 
 ## Unit Tests
