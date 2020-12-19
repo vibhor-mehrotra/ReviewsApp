@@ -11,10 +11,10 @@ Intention is to test ReviewsDataManager async operations
 class ReviewsDataManagerTests: XCTestCase {
     var dataManager: ReviewsDataManager!
     var fetchReviewsExpectation: XCTestExpectation!
+    private let testDBStack = TestCoreDataStack()
 
     override func setUpWithError() throws {
-        dataManager = ReviewsDataManager(id: "23776", networkServices: APIServicesMock())
-        dataManager.managedObjectContexct = TestCoreDataStack().mockPersistantContainer.viewContext
+        dataManager = ReviewsDataManager(id: "23776", networkServices: APIServicesMock(), managedObjContext: testDBStack.mockPersistantContainer.viewContext, archiveChanges: testDBStack.saveContext)
         dataManager.delegate = self
     }
 

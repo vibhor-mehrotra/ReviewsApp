@@ -17,8 +17,7 @@ class ReviewListVMTests: XCTestCase {
     
     override func setUpWithError() throws {
         dataManager = ReviewDataManagerMock()
-        reviewListVM = ReviewListingVM(delegate: self, id: "23776", dataManager: dataManager)
-        reviewListVM.managedObjectContexct = TestCoreDataStack().mockPersistantContainer.viewContext
+        reviewListVM = ReviewListingVM(delegate: self, id: "23776", dataManager: dataManager, managedObjContext: TestCoreDataStack().mockPersistantContainer.viewContext)
         dataManager.delegate = reviewListVM
     }
 
@@ -65,7 +64,6 @@ class ReviewListVMTests: XCTestCase {
     func testTableViewDatasourceMethods() throws{
         fetchReviewsExpectation = expectation(description: "To test the tableview datasource methods in viewmodel")
         didReceivedResponse = false
-        reviewListVM.managedObjectContexct = TestCoreDataStack().mockPersistantContainer.viewContext
         reviewListVM.fetchReviews()
         waitForExpectations(timeout: 1) { error in
             if let error = error {

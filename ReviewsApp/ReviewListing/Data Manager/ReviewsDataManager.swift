@@ -20,20 +20,23 @@ protocol ReviewsDataManagerProtocol{
 }
 
 final class ReviewsDataManager: ReviewsDataManagerProtocol{
-    private var networkServices: APIServicesProtocol
-    private var id: String
-    var selectedSort: Sort?
-    var reviewData: ReviewData!
+    private let networkServices: APIServicesProtocol
+    private let id: String
+    private(set) var selectedSort: Sort?
+    private(set) var reviewData: ReviewData!
     private var totalCount: Int?
-    var managedObjectContexct = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    private let archiveChanges: () -> Void
+    private let managedObjectContexct: NSManagedObjectContext
     private let appDelegate = UIApplication.shared.delegate as! AppDelegate
     weak var delegate: ReviewsDMCallbackProtocol?
     
-    private var isFreshRequest = true
+    private var isFreshRequest = true 
     
-    init(id: String, networkServices: APIServicesProtocol = APIServices()){
+    init(id: String, networkServices: APIServicesProtocol = APIServices(), managedObjContext: NSManagedObjectContext, archiveChanges: @escaping () -> Void){
         self.id = id
         self.networkServices = networkServices
+        self.managedObjectContexct = managedObjContext
+        self.archiveChanges = archiveChanges
     }
     
     func fetchReviews(limit: Int, offset: Int, selectedSort: Sort?){
@@ -146,9 +149,12 @@ extension ReviewsDataManager{
         }
         let strToDateDF = DateFormatter()
         strToDateDF.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        guard let dateFromStr = strToDateDF.date(from: dateStr) else {
+            return nil
+        }
         let dateToStrDF = DateFormatter()
         dateToStrDF.dateFormat = "MMM d, yyyy"
-        return dateToStrDF.string(from: strToDateDF.date(from: dateStr)!)
+        return dateToStrDF.string(from: dateFromStr)
     }
     
     private func createAuthor(_ data: User) -> Author{

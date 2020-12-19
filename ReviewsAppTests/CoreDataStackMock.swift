@@ -34,6 +34,17 @@ class TestCoreDataStack {
     public static func entityDescription(context: NSManagedObjectContext)->NSEntityDescription{
         return NSEntityDescription.entity(forEntityName: String(describing: self), in: context)!
     }
+    
+    func saveContext () {
+        if mockPersistantContainer.viewContext.hasChanges {
+            do {
+                try mockPersistantContainer.viewContext.save()
+            } catch {
+                let nserror = error as NSError
+                fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+            }
+        }
+    }
 }
 
 

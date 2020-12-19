@@ -31,9 +31,8 @@ final class ReviewListingVM: NSObject, ReviewListingVMProtocol{
     private var offset = 0
     private let limit = 20
     private var id: String
-    weak var delegate: ReviewListVMDelegate?
-    var managedObjectContexct = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    private let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    private weak var delegate: ReviewListVMDelegate?
+    private let managedObjectContexct: NSManagedObjectContext
     private let dataManager: ReviewsDataManagerProtocol
     
     private lazy var fetchedResultsController: NSFetchedResultsController<Review> = {
@@ -44,10 +43,12 @@ final class ReviewListingVM: NSObject, ReviewListingVMProtocol{
         return fetchedResultsController
     }()
     
-    init(delegate: ReviewListVMDelegate, id: String, dataManager: ReviewsDataManagerProtocol){
+    init(delegate: ReviewListVMDelegate, id: String, dataManager: ReviewsDataManagerProtocol, managedObjContext: NSManagedObjectContext){
         self.delegate = delegate
         self.id = id
         self.dataManager = dataManager
+        self.managedObjectContexct = managedObjContext
+        
     }
     
     private func performReviewsFetch(){
