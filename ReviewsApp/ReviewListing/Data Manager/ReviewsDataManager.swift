@@ -27,7 +27,6 @@ final class ReviewsDataManager: ReviewsDataManagerProtocol{
     private var totalCount: Int?
     private let archiveChanges: () -> Void
     private let managedObjectContexct: NSManagedObjectContext
-    private let appDelegate = UIApplication.shared.delegate as! AppDelegate
     weak var delegate: ReviewsDMCallbackProtocol?
     
     private var isFreshRequest = true 
@@ -100,7 +99,7 @@ extension ReviewsDataManager{
             let reviews = try managedObjectContexct.fetch(fetchRequest)
             if reviews.count > 0{
                 managedObjectContexct.delete(reviews[0])
-                appDelegate.saveContext()
+                archiveChanges()
             }
         } catch let error as NSError {
             print("Error While Fetching Data From DB: \(error.userInfo)")
@@ -120,7 +119,7 @@ extension ReviewsDataManager{
             self.reviewData.sort = selectedSort?.rawValue
             addReviews(reviewData.reviews)
         }
-        appDelegate.saveContext()
+        archiveChanges()
         delegate?.didReceiveData()
     }
     
